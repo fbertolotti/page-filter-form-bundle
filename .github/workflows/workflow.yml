@@ -1,6 +1,6 @@
 name: page-filter-form-bundle-CI
 on:
-  [push, pull_request]
+  [push, pull_request, workflow_dispatch]
 jobs:
   phpstan:
     runs-on: ubuntu-latest
